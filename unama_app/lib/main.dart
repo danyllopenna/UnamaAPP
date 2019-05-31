@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
+import 'package:unama_app/pages/home.dart';
 import 'package:unama_app/pages/login.dart';
 
 void main() {
@@ -36,7 +37,9 @@ class LoginPage extends StatelessWidget {
 
                       Container(
                         width: 100,
-                        child: RaisedButton(onPressed:(){}, color: Colors.green,
+                        child: RaisedButton(onPressed:(){
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));
+                        }, color: Colors.green,
                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(10.0))), 
                         child:Text('Entrar',style: TextStyle(
                           fontSize: 20.0

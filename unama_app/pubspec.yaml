@@ -47,6 +47,8 @@ flutter:
   assets:
     - lib/imagens/unama.png
     - lib/imagens/usuario.png
+    - lib/imagens/congresso.jpg
+    - lib/imagens/danca.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
